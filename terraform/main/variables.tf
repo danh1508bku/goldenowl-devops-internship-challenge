@@ -42,3 +42,9 @@ variable "asg_max_size" {
   type    = number
   default = 4
 }
+
+variable "domain_name" {
+  type        = string
+  description = "Subdomain served by the ALB over HTTPS"
+  default     = "goapp.danhbku.xyz"
+}
